@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041F867C2A1247D100DE0431 /* ALP_Progamer_Aplikasi_List_FilmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F867B2A1247D100DE0431 /* ALP_Progamer_Aplikasi_List_FilmApp.swift */; };
+		041F867E2A1247D200DE0431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F867D2A1247D200DE0431 /* ContentView.swift */; };
+		041F86802A1247D400DE0431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041F867F2A1247D400DE0431 /* Assets.xcassets */; };
+		041F86832A1247D400DE0431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041F86822A1247D400DE0431 /* Preview Assets.xcassets */; };
+		041F868D2A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F868C2A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmTests.swift */; };
+		041F86972A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F86962A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITests.swift */; };
+		041F86992A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F86982A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041F86892A1247D400DE0431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041F86702A1247D100DE0431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041F86772A1247D100DE0431;
+			remoteInfo = "ALP_Progamer_Aplikasi List Film";
+		};
+		041F86932A1247D400DE0431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041F86702A1247D100DE0431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041F86772A1247D100DE0431;
+			remoteInfo = "ALP_Progamer_Aplikasi List Film";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041F86782A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALP_Progamer_Aplikasi List Film.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041F867B2A1247D100DE0431 /* ALP_Progamer_Aplikasi_List_FilmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_Progamer_Aplikasi_List_FilmApp.swift; sourceTree = "<group>"; };
+		041F867D2A1247D200DE0431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		041F867F2A1247D400DE0431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041F86822A1247D400DE0431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041F86882A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALP_Progamer_Aplikasi List FilmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041F868C2A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_Progamer_Aplikasi_List_FilmTests.swift; sourceTree = "<group>"; };
+		041F86922A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALP_Progamer_Aplikasi List FilmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041F86962A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_Progamer_Aplikasi_List_FilmUITests.swift; sourceTree = "<group>"; };
+		041F86982A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041F86752A1247D100DE0431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F86852A1247D400DE0431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F868F2A1247D400DE0431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041F866F2A1247D100DE0431 = {
+			isa = PBXGroup;
+			children = (
+				041F867A2A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */,
+				041F868B2A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests */,
+				041F86952A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests */,
+				041F86792A1247D100DE0431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041F86792A1247D100DE0431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041F86782A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film.app */,
+				041F86882A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests.xctest */,
+				041F86922A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041F867A2A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */ = {
+			isa = PBXGroup;
+			children = (
+				041F867B2A1247D100DE0431 /* ALP_Progamer_Aplikasi_List_FilmApp.swift */,
+				041F867D2A1247D200DE0431 /* ContentView.swift */,
+				041F867F2A1247D400DE0431 /* Assets.xcassets */,
+				041F86812A1247D400DE0431 /* Preview Content */,
+			);
+			path = "ALP_Progamer_Aplikasi List Film";
+			sourceTree = "<group>";
+		};
+		041F86812A1247D400DE0431 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				041F86822A1247D400DE0431 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		041F868B2A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests */ = {
+			isa = PBXGroup;
+			children = (
+				041F868C2A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmTests.swift */,
+			);
+			path = "ALP_Progamer_Aplikasi List FilmTests";
+			sourceTree = "<group>";
+		};
+		041F86952A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041F86962A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITests.swift */,
+				041F86982A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift */,
+			);
+			path = "ALP_Progamer_Aplikasi List FilmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041F86772A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F869C2A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List Film" */;
+			buildPhases = (
+				041F86742A1247D100DE0431 /* Sources */,
+				041F86752A1247D100DE0431 /* Frameworks */,
+				041F86762A1247D100DE0431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALP_Progamer_Aplikasi List Film";
+			productName = "ALP_Progamer_Aplikasi List Film";
+			productReference = 041F86782A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041F86872A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F869F2A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List FilmTests" */;
+			buildPhases = (
+				041F86842A1247D400DE0431 /* Sources */,
+				041F86852A1247D400DE0431 /* Frameworks */,
+				041F86862A1247D400DE0431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041F868A2A1247D400DE0431 /* PBXTargetDependency */,
+			);
+			name = "ALP_Progamer_Aplikasi List FilmTests";
+			productName = "ALP_Progamer_Aplikasi List FilmTests";
+			productReference = 041F86882A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041F86912A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041F86A22A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List FilmUITests" */;
+			buildPhases = (
+				041F868E2A1247D400DE0431 /* Sources */,
+				041F868F2A1247D400DE0431 /* Frameworks */,
+				041F86902A1247D400DE0431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041F86942A1247D400DE0431 /* PBXTargetDependency */,
+			);
+			name = "ALP_Progamer_Aplikasi List FilmUITests";
+			productName = "ALP_Progamer_Aplikasi List FilmUITests";
+			productReference = 041F86922A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041F86702A1247D100DE0431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					041F86772A1247D100DE0431 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					041F86872A1247D400DE0431 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 041F86772A1247D100DE0431;
+					};
+					041F86912A1247D400DE0431 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 041F86772A1247D100DE0431;
+					};
+				};
+			};
+			buildConfigurationList = 041F86732A1247D100DE0431 /* Build configuration list for PBXProject "ALP_Progamer_Aplikasi List Film" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041F866F2A1247D100DE0431;
+			productRefGroup = 041F86792A1247D100DE0431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041F86772A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */,
+				041F86872A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmTests */,
+				041F86912A1247D400DE0431 /* ALP_Progamer_Aplikasi List FilmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041F86762A1247D100DE0431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F86832A1247D400DE0431 /* Preview Assets.xcassets in Resources */,
+				041F86802A1247D400DE0431 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F86862A1247D400DE0431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F86902A1247D400DE0431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041F86742A1247D100DE0431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F867E2A1247D200DE0431 /* ContentView.swift in Sources */,
+				041F867C2A1247D100DE0431 /* ALP_Progamer_Aplikasi_List_FilmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F86842A1247D400DE0431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F868D2A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041F868E2A1247D400DE0431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F86972A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITests.swift in Sources */,
+				041F86992A1247D400DE0431 /* ALP_Progamer_Aplikasi_List_FilmUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041F868A2A1247D400DE0431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041F86772A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */;
+			targetProxy = 041F86892A1247D400DE0431 /* PBXContainerItemProxy */;
+		};
+		041F86942A1247D400DE0431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041F86772A1247D100DE0431 /* ALP_Progamer_Aplikasi List Film */;
+			targetProxy = 041F86932A1247D400DE0431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		041F869A2A1247D400DE0431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041F869B2A1247D400DE0431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041F869D2A1247D400DE0431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALP_Progamer_Aplikasi List Film/Preview Content\"";
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-Film";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041F869E2A1247D400DE0431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALP_Progamer_Aplikasi List Film/Preview Content\"";
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-Film";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		041F86A02A1247D400DE0431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-FilmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALP_Progamer_Aplikasi List Film.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALP_Progamer_Aplikasi List Film";
+			};
+			name = Debug;
+		};
+		041F86A12A1247D400DE0431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-FilmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALP_Progamer_Aplikasi List Film.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALP_Progamer_Aplikasi List Film";
+			};
+			name = Release;
+		};
+		041F86A32A1247D400DE0431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-FilmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALP_Progamer_Aplikasi List Film";
+			};
+			name = Debug;
+		};
+		041F86A42A1247D400DE0431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47UNRM7N7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghifari.ALP-Progamer-Aplikasi-List-FilmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALP_Progamer_Aplikasi List Film";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041F86732A1247D100DE0431 /* Build configuration list for PBXProject "ALP_Progamer_Aplikasi List Film" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F869A2A1247D400DE0431 /* Debug */,
+				041F869B2A1247D400DE0431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F869C2A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List Film" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F869D2A1247D400DE0431 /* Debug */,
+				041F869E2A1247D400DE0431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F869F2A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List FilmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F86A02A1247D400DE0431 /* Debug */,
+				041F86A12A1247D400DE0431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041F86A22A1247D400DE0431 /* Build configuration list for PBXNativeTarget "ALP_Progamer_Aplikasi List FilmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041F86A32A1247D400DE0431 /* Debug */,
+				041F86A42A1247D400DE0431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041F86702A1247D100DE0431 /* Project object */;
+}
