@@ -11,7 +11,7 @@ import SwiftUI
 struct ALP_Progamer_Aplikasi_List_FilmApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(controller: MovieListController())
         }
     }
 }
