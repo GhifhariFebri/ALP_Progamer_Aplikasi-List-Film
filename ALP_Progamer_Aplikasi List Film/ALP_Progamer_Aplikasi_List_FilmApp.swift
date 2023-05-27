@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct ALP_Progamer_Aplikasi_List_FilmApp: App {
+    
+    init() {
+       FirebaseApp.configure()
+       }
+    
     var body: some Scene {
         WindowGroup {
             ContentView(controller: MovieListController())
