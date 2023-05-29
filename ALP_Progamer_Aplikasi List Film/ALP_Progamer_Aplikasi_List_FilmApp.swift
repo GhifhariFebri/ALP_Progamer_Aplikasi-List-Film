@@ -10,14 +10,26 @@ import Firebase
 
 @main
 struct ALP_Progamer_Aplikasi_List_FilmApp: App {
-    
+    @State private var showSplash = true
+
     init() {
-       FirebaseApp.configure()
-       }
-    
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView(controller: MovieListController())
+            Group {
+                if showSplash {
+                    SplashScreenView()
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                showSplash = false
+                            }
+                        }
+                } else {
+                    ContentView(controller: MovieListController())
+                }
+            }
         }
     }
 }
