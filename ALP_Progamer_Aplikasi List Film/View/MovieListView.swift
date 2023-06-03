@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseStorage
 
+// pembuatan struct movie list view
 struct MovieListView: View {
     @ObservedObject var controller: MovieListController
     @State private var isPresentingAddMovieView = false
