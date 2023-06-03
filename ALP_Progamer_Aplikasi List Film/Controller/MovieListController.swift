@@ -10,6 +10,7 @@ import Firebase
 import FirebaseFirestore
 import FirebaseStorage
 
+//  Movie list controller
 class MovieListController: ObservableObject {
     @Published var movies: [Movie] = []
     private var db = Firestore.firestore()
