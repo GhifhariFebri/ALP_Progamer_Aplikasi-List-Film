@@ -13,7 +13,7 @@ import Firebase
 import FirebaseDatabase
 import FirebaseStorage
 
-
+// pembuatan Struck movie add view
 struct MovieAddView: View {
     @ObservedObject var controller: MovieListController
     @Environment(\.presentationMode) private var presentationMode
