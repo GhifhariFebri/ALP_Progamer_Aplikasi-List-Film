@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// pembuatan struct splash screen view
 struct SplashScreenView: View {
     var body: some View {
         VStack {
