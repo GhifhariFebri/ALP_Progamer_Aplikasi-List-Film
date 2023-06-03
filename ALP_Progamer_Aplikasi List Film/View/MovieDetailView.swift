@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseStorage
 
+// pembuatan struct movie detail view
 struct MovieDetailView: View {
     let movie: Movie
     @State private var isLoading = true
