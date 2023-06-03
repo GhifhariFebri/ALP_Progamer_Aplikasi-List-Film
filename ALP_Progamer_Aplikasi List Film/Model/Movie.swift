@@ -5,6 +5,7 @@
 //  Created by MacBook Pro on 22/05/23.
 //
 
+//  Movie model
 import Foundation
 
 struct Movie: Identifiable {
