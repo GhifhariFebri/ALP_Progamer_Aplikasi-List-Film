@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//View rating sebagai bintang
 struct RatingView: View {
     let rating: Int
     let maxRating = 5

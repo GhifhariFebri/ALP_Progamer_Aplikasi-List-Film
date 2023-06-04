@@ -21,6 +21,10 @@ struct MovieAddView: View {
     @State private var title = ""
     @State private var genre = ""
     @State private var releaseYear = ""
+    @State private var synopsis = ""
+    @State private var producer = ""
+    @State private var rating = 0 // New rating state
+    
     @State private var selectedImage: UIImage?
     @State private var isShowingImagePicker = false
     
@@ -29,6 +33,12 @@ struct MovieAddView: View {
             TextField("Title", text: $title)
             TextField("Genre", text: $genre)
             TextField("Release Year", text: $releaseYear)
+            TextField("Producer", text: $producer)
+            TextField("Synopsis", text: $synopsis)
+            
+            Stepper(value: $rating, in: 0...5, step: 1) {
+                Text("Rating: \(rating)")
+            }
             
             if let selectedImage = selectedImage {
                 Image(uiImage: selectedImage)
@@ -54,7 +64,7 @@ struct MovieAddView: View {
     }
     
     private func addMovie() {
-        print("Adding movie...") // Print statement to check if the code is executed
+        print("Adding movie...") // Debuggin bila movie ke add
         
         guard let selectedImage = selectedImage else {
             print("No selected image")
@@ -84,15 +94,16 @@ struct MovieAddView: View {
                 
                 if let downloadURL = url {
                     let imageUrl = downloadURL.absoluteString
-                    print("Movie details: title=\(title), genre=\(genre), releaseYear=\(releaseYear), imageUrl=\(imageUrl)") // Print movie details
+                    print("Movie details: title=\(title), genre=\(genre), releaseYear=\(releaseYear), imageUrl=\(imageUrl), rating=\(rating)") // Print movie details
                     
-                    controller.addMovie(title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl)
+                    controller.addMovie(title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl, synopsis: synopsis, rating: rating, producer: producer)
                     presentationMode.wrappedValue.dismiss()
                 }
             }
         }
     }
 }
+
 
 struct MovieAddView_Previews: PreviewProvider {
     static var previews: some View {

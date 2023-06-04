@@ -14,14 +14,17 @@ import FirebaseStorage
 class MovieListController: ObservableObject {
     @Published var movies: [Movie] = []
     private var db = Firestore.firestore()
-    private var collectionName = "Movie List" // Update the collection name
+    private var collectionName = "Movie List" // Nama koleksi firebase
     
     init() {
         fetchMovies()
     }
     
+    //Show Movie
     func fetchMovies() {
+    
         db.collection(collectionName).getDocuments { snapshot, error in
+            
             if let error = error {
                 print("Error fetching movies: \(error.localizedDescription)")
                 return
@@ -35,29 +38,39 @@ class MovieListController: ObservableObject {
                 let genre = data["genre"] as? String ?? ""
                 let releaseYear = data["releaseYear"] as? String ?? ""
                 let imageUrl = data["imageUrl"] as? String ?? ""
+                let synopsis = data["synopsis"] as? String ?? ""
+                let rating = data["rating"] as? Int ?? 0
+                let producer = data["producer"] as? String ?? ""
                 
-                return Movie(title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl)
+                
+                return Movie(id: document.documentID, title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl, synopsis: synopsis, rating: rating, producer: producer)
             }
         }
     }
     
-    func addMovie(title: String, genre: String, releaseYear: String, imageUrl: String) {
+    func addMovie(title: String, genre: String, releaseYear: String, imageUrl: String, synopsis: String, rating: Int, producer: String) {
         let data: [String: Any] = [
             "title": title,
             "genre": genre,
             "releaseYear": releaseYear,
-            "imageUrl": imageUrl
+            "imageUrl": imageUrl,
+            "synopsis": synopsis,
+            "rating": rating,
+            "producer": producer
         ]
         
         db.collection(collectionName).addDocument(data: data) { [weak self] error in
             if let error = error {
                 print("Error adding movie: \(error.localizedDescription)")
             } else {
-                // Fetch the newly added movie document
+                // Fetch movie data
                 self?.db.collection(self?.collectionName ?? "").whereField("title", isEqualTo: title)
                     .whereField("genre", isEqualTo: genre)
                     .whereField("releaseYear", isEqualTo: releaseYear)
                     .whereField("imageUrl", isEqualTo: imageUrl)
+                    .whereField("synopsis", isEqualTo: synopsis)
+                    .whereField("rating", isEqualTo: rating)
+                    .whereField("producer", isEqualTo: producer)
                     .getDocuments { [weak self] snapshot, error in
                         if let error = error {
                             print("Error fetching movie: \(error.localizedDescription)")
@@ -69,7 +82,7 @@ class MovieListController: ObservableObject {
                             return
                         }
                         
-                        let movie = Movie(id: document.documentID, title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl)
+                        let movie = Movie(id: document.documentID, title: title, genre: genre, releaseYear: releaseYear, imageUrl: imageUrl, synopsis: synopsis, rating: rating, producer: producer)
                         
                         DispatchQueue.main.async {
                             self?.movies.append(movie)

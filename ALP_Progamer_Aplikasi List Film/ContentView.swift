@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+//View Semua
 struct ContentView: View {
     @ObservedObject var controller: MovieListController
     

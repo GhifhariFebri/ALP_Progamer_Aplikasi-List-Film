@@ -8,6 +8,8 @@
 import SwiftUI
 import Firebase
 
+
+//Implement configure Firebase
 @main
 struct ALP_Progamer_Aplikasi_List_FilmApp: App {
     @State private var showSplash = true
@@ -19,6 +21,7 @@ struct ALP_Progamer_Aplikasi_List_FilmApp: App {
     var body: some Scene {
         WindowGroup {
             Group {
+                //Setting splash screen
                 if showSplash {
                     SplashScreenView()
                         .onAppear {
